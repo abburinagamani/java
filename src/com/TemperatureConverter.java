@@ -13,7 +13,7 @@ public class TemperatureConverter {
 		unit=sc.next().toUpperCase();
 		
 		newTemp=(unit.equals("C"))?(temp-32)*5/9:(temp*5/9)+32;
-		System.out.println(newTemp+" o"+unit);
+		System.out.printf("%.2f",newTemp,unit);
 		
 		sc.close();
 	}
