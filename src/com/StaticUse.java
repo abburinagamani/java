@@ -12,10 +12,7 @@ class Friend{
 }
 public class StaticUse {
 	public static void main(String[] args) {
-		Friend friend1=new Friend("Alice");
-		Friend friend2=new Friend("Bob");
-		Friend friend3=new Friend("Charles");
-		Friend friend4=new Friend("Donald");
+		
 		Friend.showFriends();
 		
 	}
